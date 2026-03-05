@@ -8,3 +8,5 @@ cohere
 qdrant-client
 rank-bm25
 qdrant-client
+ragas
+datasets
