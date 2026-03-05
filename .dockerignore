@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.pytest_cache/
+.git/
+.gitignore
+Dockerfile
+docker-compose.yml
+.env
+docker compose build --no-cache
+docker compose up
