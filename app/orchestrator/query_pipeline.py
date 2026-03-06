@@ -26,9 +26,10 @@ class QueryPipeline:
 
         top_context = reranked[:3]
 
-        answer = self.llm.generate(query, top_context)
+        # answer = self.llm.generate(query, top_context)
+        answer = self.llm.generate(query, reranked)
 
         return {
             "answer": answer,
-            "context_used": top_context
+            "contexts": top_context
         }
